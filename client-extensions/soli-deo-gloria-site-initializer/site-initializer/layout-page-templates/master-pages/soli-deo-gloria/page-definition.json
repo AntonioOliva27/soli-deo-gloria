@@ -1,0 +1,291 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "mobile-navbar",
+						"siteKey": "SDG Liferay Site"
+					},
+					"fragmentConfig": {
+					},
+					"fragmentFields": [
+						{
+							"id": "link1",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "#"
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "link",
+							"value": {
+								"fragmentLink": {
+								}
+							}
+						},
+						{
+							"id": "link4",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "#"
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "link3",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "#"
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "link2",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"mapping": {
+												"itemReference": {
+													"className": "com.liferay.portal.kernel.model.Layout",
+													"fields": [
+														{
+															"fieldName": "friendlyURL",
+															"fieldValue": "/event"
+														},
+														{
+															"fieldName": "privatePage",
+															"fieldValue": "false"
+														},
+														{
+															"fieldName": "siteKey",
+															"fieldValue": "SDG Liferay Site"
+														}
+													]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					],
+					"fragmentStyle": {
+						"hidden": true
+					},
+					"fragmentViewports": [
+						{
+							"fragmentViewportStyle": {
+								"hidden": false
+							},
+							"id": "landscapeMobile"
+						}
+					],
+					"indexed": true
+				},
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "navbar-0",
+						"siteKey": "SDG Liferay Site"
+					},
+					"fragmentConfig": {
+					},
+					"fragmentFields": [
+						{
+							"id": "01-link",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"mapping": {
+												"itemReference": {
+													"className": "com.liferay.portal.kernel.model.Layout",
+													"fields": [
+														{
+															"fieldName": "friendlyURL",
+															"fieldValue": "/event"
+														},
+														{
+															"fieldName": "privatePage",
+															"fieldValue": "false"
+														},
+														{
+															"fieldName": "siteKey",
+															"fieldValue": "SDG Liferay Site"
+														}
+													]
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "01-home",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"mapping": {
+												"itemReference": {
+													"className": "com.liferay.portal.kernel.model.Layout",
+													"fields": [
+														{
+															"fieldName": "friendlyURL",
+															"fieldValue": "/welcome"
+														},
+														{
+															"fieldName": "privatePage",
+															"fieldValue": "false"
+														},
+														{
+															"fieldName": "siteKey",
+															"fieldValue": "SDG Liferay Site"
+														}
+													]
+												}
+											}
+										}
+									}
+								},
+								"text": {
+									"value_i18n": {
+										"en_US": "Home"
+									}
+								}
+							}
+						},
+						{
+							"id": "03-link",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "#"
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "02-link",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "#"
+										}
+									}
+								}
+							}
+						}
+					],
+					"fragmentStyle": {
+						"marginLeft": "20%",
+						"marginRight": "20%"
+					},
+					"fragmentViewports": [
+						{
+							"fragmentViewportStyle": {
+								"hidden": true
+							},
+							"id": "landscapeMobile"
+						},
+						{
+							"fragmentViewportStyle": {
+								"hidden": true
+							},
+							"id": "portraitMobile"
+						},
+						{
+							"fragmentViewportStyle": {
+								"marginLeft": "0px",
+								"marginRight": "0px"
+							},
+							"id": "tablet"
+						}
+					],
+					"indexed": true
+				},
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+						"widthType": "Fixed"
+					},
+					"name": "Page Body"
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentSettings": {
+								"unallowedFragments": [
+								]
+							}
+						},
+						"type": "DropZone"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+						"widthType": "Fixed"
+					},
+					"name": "Page Footer"
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "footer",
+								"siteKey": "SDG Liferay Site"
+							},
+							"fragmentConfig": {
+							},
+							"fragmentFields": [
+							],
+							"indexed": true
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"themeName": "Classic",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}

@@ -1,0 +1,80 @@
+.fragment_2520 {
+	border: 1px solid #999;
+	border-radius: 30px;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.img-cntr2520 {
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	height: 170px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.img2520 {
+	aspect-ratio: 16 / 9;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 100%;
+}
+
+.content-cntr2520 {
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+	width: 100%;
+}
+
+.event2520 {
+	background-color: #88A794;
+	border-radius: 30px;
+	color: white;
+	padding: 10px;
+}
+
+.title2520 {
+	color: #093542;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.description2520 {
+	color: #636366;
+	margin-top: 15px;
+}
+
+.lower2520 {
+	display: flex;
+	height: 40px;
+	justify-content: space-between;
+}
+
+.date-cntr2520 {
+	display: flex;
+	gap: 5px;
+}
+
+.date2520 {
+	color: #88A794;
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+.calendar2520 {
+	height: 40px;
+}
+
+.btn2520 {
+	background-color: #093542;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	height: 40px;
+	padding: 0 20px;
+}

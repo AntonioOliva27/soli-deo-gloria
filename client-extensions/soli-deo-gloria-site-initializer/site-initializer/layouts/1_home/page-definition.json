@@ -1,0 +1,2249 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-spacer"
+							},
+							"fragmentConfig": {
+								"height": "py-3"
+							},
+							"fragmentFields": [
+							],
+							"fragmentStyle": {
+								"height": "50px"
+							},
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"hidden": false
+									},
+									"id": "portraitMobile"
+								}
+							],
+							"indexed": true
+						},
+						"type": "Fragment"
+					},
+					{
+						"definition": {
+							"indexed": true,
+							"layout": {
+							},
+							"name": "Title"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"marginLeft": "4%",
+												"marginRight": "4%"
+											},
+											"id": "tablet"
+										}
+									],
+									"indexed": true,
+									"layout": {
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "title",
+												"siteKey": "SDG Liferay Site"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+												{
+													"id": "text-01",
+													"value": {
+														"fragmentLink": {
+														}
+													}
+												},
+												{
+													"id": "text-02",
+													"value": {
+														"fragmentLink": {
+														}
+													}
+												}
+											],
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"marginLeft": "0%",
+														"marginRight": "0%"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "BASIC_COMPONENT-spacer"
+											},
+											"fragmentConfig": {
+												"height": "py-3"
+											},
+											"fragmentFields": [
+											],
+											"fragmentStyle": {
+												"height": "50px"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"hidden": false
+													},
+													"id": "portraitMobile"
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "4%",
+										"marginRight": "4%"
+									},
+									"id": "tablet"
+								}
+							],
+							"indexed": true,
+							"layout": {
+							},
+							"name": "Noticias recentes and slider"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {
+									},
+									"name": "Noticias"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "noticias-recentes",
+												"siteKey": "SDG Liferay Site"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+											],
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"marginLeft": "0%",
+														"marginRight": "0%"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "BASIC_COMPONENT-spacer"
+											},
+											"fragmentConfig": {
+												"height": "py-3"
+											},
+											"fragmentFields": [
+											],
+											"fragmentStyle": {
+												"height": "50px"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"hidden": false
+													},
+													"id": "portraitMobile"
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							},
+							{
+								"definition": {
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": true
+											},
+											"id": "tablet"
+										}
+									],
+									"indexed": true,
+									"layout": {
+									},
+									"name": "Computer Slider"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "test",
+												"siteKey": "SDG Liferay Site"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+											],
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"hidden": false
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/sdg-liferay-site/futuros-homens-1-1-png?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/sdg-liferay-site/futuros-homens-1-1-png?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/sdg-liferay-site/image-8-png-3?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-test",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "/documents/d/sdg-liferay-site/image-8-png-3?imagePreview=1"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							},
+							{
+								"definition": {
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": true
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"hidden": false
+											},
+											"id": "tablet"
+										}
+									],
+									"indexed": true,
+									"layout": {
+									},
+									"name": "Tablet Slider"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "slider-(ipad)",
+												"siteKey": "SDG Liferay Site"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+											],
+											"fragmentStyle": {
+												"hidden": true
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"hidden": true
+													},
+													"id": "landscapeMobile"
+												},
+												{
+													"fragmentViewportStyle": {
+														"hidden": false,
+														"paddingLeft": "6px"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "card-(ipad)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							},
+							{
+								"definition": {
+									"fragmentStyle": {
+										"hidden": true
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": false,
+												"marginLeft": "auto",
+												"marginRight": "auto",
+												"width": "300px"
+											},
+											"id": "landscapeMobile"
+										}
+									],
+									"indexed": true,
+									"layout": {
+									},
+									"name": "Mobile Slider"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "slider-cards-(mobile)",
+												"siteKey": "SDG Liferay Site"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											},
+											{
+												"definition": {
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "cards-(mobile)",
+																"siteKey": "SDG Liferay Site"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "01-image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "01-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "04-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "02-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "03-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "05-text",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "BASIC_COMPONENT-spacer"
+									},
+									"fragmentConfig": {
+										"height": "py-3"
+									},
+									"fragmentFields": [
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "4%",
+										"marginRight": "4%"
+									},
+									"id": "tablet"
+								}
+							],
+							"indexed": true,
+							"layout": {
+							},
+							"name": "Photo Gallery"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "fragments-grid-images",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"paddingLeft": "3",
+										"paddingRight": "3",
+										"width": "100%"
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": true
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"hidden": true
+											},
+											"id": "portraitMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"hidden": false
+											},
+											"id": "tablet"
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "fragment-gallery-photos-complete-(copy)",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"hidden": true
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": false
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"height": "0px",
+												"hidden": false,
+												"marginBottom": "5"
+											},
+											"id": "portraitMobile"
+										}
+									],
+									"indexed": true,
+									"name": "mobile photos"
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "0",
+										"marginRight": "0",
+										"marginTop": "6",
+										"paddingBottom": "0",
+										"paddingLeft": "3",
+										"paddingRight": "3",
+										"paddingTop": "0"
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "4%",
+										"marginRight": "4%"
+									},
+									"id": "tablet"
+								}
+							],
+							"indexed": true,
+							"layout": {
+							},
+							"name": "Newsletter"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "newsletter",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"paddingLeft": "3",
+										"paddingRight": "3"
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": false,
+												"marginLeft": "4",
+												"marginRight": "4",
+												"marginTop": "0",
+												"paddingLeft": "0",
+												"paddingRight": "0",
+												"paddingTop": "0"
+											},
+											"id": "portraitMobile"
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "BASIC_COMPONENT-spacer"
+									},
+									"fragmentConfig": {
+										"height": "py-1"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"height": "50px",
+										"paddingBottom": "3",
+										"paddingTop": "3"
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": false
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"height": "12px",
+												"hidden": false
+											},
+											"id": "portraitMobile"
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"paddingBottom": "0",
+										"paddingLeft": "3",
+										"paddingRight": "3",
+										"paddingTop": "0"
+									},
+									"id": "portraitMobile"
+								},
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "4%",
+										"marginRight": "4%"
+									},
+									"id": "tablet"
+								}
+							],
+							"indexed": true,
+							"layout": {
+							},
+							"name": "FAQ"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "faq",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+										{
+											"id": "h3-faq-5",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-faq-4",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-faq-5",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "h3-faq-2",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-faq-2",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "h3-faq-1",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-faq-3",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "h3-faq-4",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-faq-1",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "h3-faq-3",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "BASIC_COMPONENT-spacer"
+									},
+									"fragmentConfig": {
+										"height": "py-1"
+									},
+									"fragmentFields": [
+									],
+									"fragmentStyle": {
+										"height": "50px",
+										"paddingBottom": "3",
+										"paddingTop": "3"
+									},
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": false
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"fragmentViewportStyle": {
+												"height": "12px",
+												"hidden": false
+											},
+											"id": "portraitMobile"
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"marginLeft": "4%",
+										"marginRight": "4%"
+									},
+									"id": "tablet"
+								}
+							],
+							"indexed": true,
+							"layout": {
+							},
+							"name": "About Us"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "about-us",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {
+										"key": "BASIC_COMPONENT-spacer"
+									},
+									"fragmentConfig": {
+										"height": "py-5"
+									},
+									"fragmentFields": [
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"indexed": true,
+							"layout": {
+							},
+							"name": "Nosso Time"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "nosso-time",
+										"siteKey": "SDG Liferay Site"
+									},
+									"fragmentConfig": {
+									},
+									"fragmentFields": [
+										{
+											"id": "name-01",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "name-04",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Sem. Washington Santos"
+													}
+												}
+											}
+										},
+										{
+											"id": "name-02",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Pr. Wendell Gonzaga"
+													}
+												}
+											}
+										},
+										{
+											"id": "position-04",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Conselheiro"
+													}
+												}
+											}
+										},
+										{
+											"id": "name-03",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Presb. Altimar Duarte"
+													}
+												}
+											}
+										},
+										{
+											"id": "position-02",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Vice-Diretor"
+													}
+												}
+											}
+										},
+										{
+											"id": "position-03",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Caseiro"
+													}
+												}
+											}
+										},
+										{
+											"id": "position-01",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "img-02",
+											"value": {
+												"fragmentImage": {
+													"url": {
+														"value_i18n": {
+															"en_US": "/documents/d/sdg-liferay-site/img2-png?imagePreview=1"
+														}
+													}
+												},
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "img-03",
+											"value": {
+												"fragmentImage": {
+													"url": {
+														"value_i18n": {
+															"en_US": "/documents/d/sdg-liferay-site/img3-png?imagePreview=1"
+														}
+													}
+												},
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "img-04",
+											"value": {
+												"fragmentImage": {
+													"url": {
+														"value_i18n": {
+															"en_US": "/documents/d/sdg-liferay-site/img4-png?imagePreview=1"
+														}
+													}
+												},
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "img-01",
+											"value": {
+												"fragmentImage": {
+													"url": {
+														"value_i18n": {
+														}
+													}
+												},
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-01",
+											"value": {
+												"fragmentLink": {
+												}
+											}
+										},
+										{
+											"id": "description-02",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Apaixonado por compartilhar a sabedoria da Bíblia com outras pessoas."
+													}
+												}
+											}
+										},
+										{
+											"id": "description-03",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Ajudar indivíduos a encontrar consolo e orientação por meio de princípios bíblicos."
+													}
+												}
+											}
+										},
+										{
+											"id": "description-04",
+											"value": {
+												"fragmentLink": {
+												},
+												"text": {
+													"value_i18n": {
+														"en_US": "Dando vida a histórias e ensinamentos bíblicos por meio de conteúdo escrito envolvente."
+													}
+												}
+											}
+										}
+									],
+									"fragmentViewports": [
+										{
+											"fragmentViewportStyle": {
+												"hidden": true
+											},
+											"id": "tablet"
+										}
+									],
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-spacer"
+							},
+							"fragmentConfig": {
+								"height": "py-5"
+							},
+							"fragmentFields": [
+							],
+							"fragmentStyle": {
+								"height": "175px"
+							},
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"hidden": true
+									},
+									"id": "portraitMobile"
+								}
+							],
+							"indexed": true
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "public"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+.fragment_2518 {
+  width: 300px;
+  overflow: hidden;
+}
+
+.slider2518 {
+  width: 300px;
+  display: flex;
+	gap: 2%;
+  transition: transform 0.5s ease;
+  min-width: 100%;
+}
+
+.card2518 {
+  background-color: none;
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+lfr-drop-zone {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.bottom-bar2518 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.indicators2518 {
+  display: flex;
+  justify-content: center;
+}
+
+.indicator2518 {
+	margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.indicator2518.active {
+  background-color: #333;
+}

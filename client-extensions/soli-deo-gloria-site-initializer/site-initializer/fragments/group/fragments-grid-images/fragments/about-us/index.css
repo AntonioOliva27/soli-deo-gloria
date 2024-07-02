@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  background-color: #F2F2F2;
+}
+
+.container-5-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px;
+  gap: 20px;
+  max-width: 2000px;
+	text-align:justify;
+  
+}
+
+.logo-container {
+  flex: 1;
+  text-align: center;
+}
+
+#logo-information {
+  width: 100px;
+  height: auto;
+}
+
+.information {
+  flex: 2;
+  max-width: 600px;
+}
+
+.information h2 {
+  color: #88A794;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+	padding-bottom: 5px
+}
+
+.information h1 {
+  color: #093542;
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 600;
+	padding-bottom: 32px
+}
+
+.information p {
+  color: #093542;
+	font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+	margin-bottom:25px
+	
+	
+  
+	
+}
+
+.information .sub-paragraph {
+  color: #8E8E93;
+	font-weight: medium;
+  font-size: 18px;
+  line-height: 24px;
+	margin-top: 5px;
+  
+}
+
+@media (max-width: 768px) {
+  .container-5-information {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo-container {
+    margin-bottom: 20px;
+  }
+
+  .information h2 {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .information h1 {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .information p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0 15px;
+  }
+
+  #logo-information {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-5-information {
+    padding: 5px;
+  }
+
+  .information h2 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+		padding-bottom: 3px;
+  }
+
+  .information h1 {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .information p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    padding: 0 15px;
+  }
+	
+	.information .sub-paragraph{
+	   font-size: 14px;
+		 line-height: 18px
+	}
+
+  #logo-information {
+    width: 60px;
+    margin-bottom: 2px;
+  }
+}

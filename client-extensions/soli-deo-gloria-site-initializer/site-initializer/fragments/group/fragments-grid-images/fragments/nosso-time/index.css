@@ -1,0 +1,47 @@
+.fragment_1716 {
+	background-color: transparent;
+	width: 1260px;
+}
+
+.h2_1716{
+  color: #093542;
+}
+
+.text1716{
+  color: #8E8E93;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.container1716{
+	display: flex;
+	gap: 36px;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.card1716{
+	max-width: 288px;
+}
+
+.img-container{
+  width: 100%;
+}
+
+.img1716{
+  width: 100%;
+}
+
+.card-content1716{
+	padding-top: 15px;
+}
+
+.name1716{
+  color: #093542;
+	margin-bottom: 0;
+}
+
+.position1716, .description1716{
+  color: #8E8E93;
+	font-size: 16px;
+}

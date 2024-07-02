@@ -1,0 +1,28 @@
+<div class="fragment_1423">
+		<div class="navbar303" id="navbar1423">
+		<button class="open-btn303" onclick="openSidebar()">☰</button>
+
+		<div class="logo-ctnr-303"><img class="logo303" src="[resources:logo-SDG.svg]" /></div>
+	</div>
+
+	<div class="sidebar303" id="sidebar1423">
+		<button class="close-btn303" onclick="closeSidebar()">×</button>
+
+		<a data-lfr-editable-id="link1" data-lfr-editable-type="link" href="#">Home</a>
+		<a data-lfr-editable-id="link2" data-lfr-editable-type="link" href="#">Eventos</a>
+		<a data-lfr-editable-id="link3" data-lfr-editable-type="link" href="#">Instituto</a>
+		<a data-lfr-editable-id="link4" data-lfr-editable-type="link" href="#">Cafe</a>
+	</div>
+</div>
+
+<script>
+function openSidebar() {
+	document.getElementById("sidebar1423").style.display = "flex";
+	  document.getElementById("navbar1423").style.display = "none";
+}
+
+function closeSidebar() {
+	document.getElementById("sidebar1423").style.display = "none";
+	  document.getElementById("navbar1423").style.display = "flex";
+}
+</script>

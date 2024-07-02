@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.image-slider-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 700px; /* ---------- Ajuste de altura ---------- */
+}
+
+.slider {
+  width: 80%;
+  max-width: 700px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-text-3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.title-2 {
+  padding-bottom: 18px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #093542;
+  line-height: 48px;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.p-2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #8e8e93;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+.slide .gallery-slides {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Garantir que a imagem se adapte ao contêiner sem cortar */
+  border-radius: 10px;
+}
+
+.dotnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dotnav-item {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.dotnav-item.active {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.dotnav-item:not(.active):hover {
+  opacity: 0.7;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .title-2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .dotnav {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title-2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .p-2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .dotnav {
+    margin-top: 10px;
+  }
+
+  .column-footer {
+    padding: 10px;
+  }
+
+  .column-2-footer {
+    gap: 10px;
+  }
+
+  #column-right-footer {
+    margin: 25px 10px;
+  }
+}

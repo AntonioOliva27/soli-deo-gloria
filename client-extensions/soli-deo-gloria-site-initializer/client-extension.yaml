@@ -1,0 +1,13 @@
+soli-deo-gloria-site-initializer-code:
+    name: Soli Deo Gloria Site Initializer Code
+    oAuthApplicationHeadlessServer: soli-deo-gloria-site-initializer-code-oauth-application-headless-server
+    siteExternalReferenceCode: soli-deo-gloria
+    siteName: Soli Deo Gloria
+    type: siteInitializer
+soli-deo-gloria-site-initializer-code-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Soli Deo Gloria Code OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer
