@@ -14,6 +14,7 @@
   justify-content: space-between;
   margin-bottom: 60px;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 .column {
@@ -28,6 +29,7 @@
 .column-2 {
   display: flex;
   gap: 168px;
+  line-height: 38px;
   margin-top: 32px;
 }
 
